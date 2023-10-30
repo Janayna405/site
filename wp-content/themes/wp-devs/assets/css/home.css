@@ -1,0 +1,23 @@
+.wpdevs-pagenation{
+    display: flex;
+    justify-content: space-between;
+}
+.pages{
+    margin: top 20px;
+}
+.nav.links .pages-numbers{
+    padding: 10px 15px;
+    display:inline-block;
+    background: var( --wpdevs-gray3);
+    }
+.nav-links .current{
+    background-color: black;
+    color: white;
+} 
+.nav-links .next,
+.nav-links .prev{
+    background-color: transparent;
+}
+.nav-links .prev{
+    padding-left: 0;
+}
