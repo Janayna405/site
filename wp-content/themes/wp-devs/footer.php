@@ -4,7 +4,7 @@
               <p>Copyright X - All Rights Reserved</p>
              </div>
              <nav class= "footer-menu">
-               <?php wp_nav_manu( array ('theme_location'=> 'wp_devs_footer_menu', 'depth'=> 1 ));?>
+               <?php wp_nav_menu( array ('theme_location'=> 'wp_devs_footer_menu', 'depth'=> 1 ));?>
            </div>
       </footer>
   </div>

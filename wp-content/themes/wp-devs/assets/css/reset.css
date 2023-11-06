@@ -249,7 +249,7 @@ p{
     line-height: 1.7rem;
 }
 a{
-    color: var(--wpdevs_gray1);
+    color: var(--wpdevs-gray1);
     text-decoration: none;
 }
 a:hover,
@@ -267,7 +267,7 @@ img{
 }
 @media (max-width: 575px){
     .container{
-        padding:var(--wpdevs-linght-padding);
+        padding: var(--wpdevs-linght-padding);
     }
 }
 @media (max-width: 575px){
@@ -359,7 +359,7 @@ img{
     .main-menu ul li a:hover, 
     .main-menu ul li a:active 
     {
-       color: var( --wpdevs-gray1);
+       color: var(--wpdevs-gray1);
        transition: .5s all;
     }
     .main-menu ul li a:focus + ul 
@@ -476,7 +476,7 @@ img{
     text-align: center;
 }
 .hero-items{
-    padding: var(--wpde _light-padding);
+    padding: var(--wpdevs-light-padding);
 }
 .hero .overlay{
     background: rgb( 0 0 0 /27% );
@@ -502,8 +502,8 @@ img{
 /* Services */
 .services{
     background: var(--wpdevs-deep-blue);
-    padding: var(--wpdevs_big_padding);
-    color: #ffff;
+    padding: var(--wpdevs_big-padding);
+    color: #ffff
 }
 .services .conteiner{
     display: flex;
@@ -514,19 +514,19 @@ img{
     flex: 1 1 250px;
 }
 .services-item{
-    padding: var (--wpdevs-light-paddding);
+    padding: var(--wpdevs-light-paddding);
 }
 .services-item p{
     margin-bottom: 40px
 }
 .services-ite, figure{
-    background: var(--wpdevs_black_blue);
+    background: var(--wpdevs-black-blue);
     padding: 15px;
 }
 .services h2::after{
     content: '';
     position: absolute;
-    background-color: var(--wpdevs_light_blue);
+    background-color: var(--wpdevs-light-blue);
     width: 35px;
     height: 5px;
     right: calc(50% -15px);
@@ -554,7 +554,7 @@ img{
 }
 .home-blog .container{
     display: grid;
-    grid-template-areas: 'faat-item feat-item';
+    grid-template-areas: 'feat-item';
     grid-gap: 25px;
 }
 .home .home-blog h2{
@@ -564,7 +564,7 @@ img{
 .home .home-blog h2::after{
     content:'';
     position: absolute;
-    background-color: var(--wpdevs_light-blue);
+    background-color: var(--wpdevs-light-blue);
     width: 35px;
     height: 5px;
     right: calc(50% -15px);
@@ -638,7 +638,7 @@ footer .container .row{
  }
  .footer-menu ul li a {
     text-decoration: none;
-    color: #ffff
+    color: #ffff;
  }
  .footer-menu ul li.currnt_page_item a{
     font-weight: bold;
@@ -689,7 +689,7 @@ footer .container .row{
  .blog aside,
  .archive aside{
     padding: 225px;
-    background: var( --wpdevs-gray2);
+    background: var(--wpdevs-gray2);
     height: 100%;
     width: 30%;
  }
@@ -722,7 +722,7 @@ footer .container .row{
 }
 @media screen and (max-width: 991px) {
     #primary > #main{
-        padding: var (--wpdevs-big-padding);
+        padding: var(--wpdevs-big-padding);
     }
 }
 .meta-info p{
@@ -754,7 +754,7 @@ article.post h2{
 }
 article h2{
     line-height: 3rem;
-    margin-bottom: 10´x;
+    margin-bottom: 10 px;
     text-transform: none;
 }
 article.post h3,
