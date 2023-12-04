@@ -76,17 +76,17 @@ testarea{
     margin:0;
 }
 
-botton,
+button,
 input{
     overflow: visible;
 }
-botton,
+button,
 select{
     text-transform: none;
 }
 
-botton, 
-[type='botton']
+button, 
+[type='button']
 [type= 'reset']
 [type='submit']{
     -webkit-appearance: button;
@@ -107,7 +107,7 @@ button:-moz-focusring,
 [type=button]:-moz-focusring,
 [type=reset]:-moz-focusring,
 [type=submit]:-moz-focusring {
-	outline: 1px dotted Buttontext;
+	outline: 1px dotted Button text;
 }
 
 /**
@@ -402,9 +402,9 @@ img{
     display: none;
 }
 
-.main-icon .bar1, 
-.main-icon .bar2, 
-.main-icon .bar3{
+.menu-icon .bar1, 
+.menu-icon .bar2, 
+.menu-icon .bar3{
        width: 28px;
        height: 3px;
        background-color: #333;
@@ -519,7 +519,7 @@ img{
 .services-item p{
     margin-bottom: 40px
 }
-.services-ite, figure{
+.services-item, figure{
     background: var(--wpdevs-black-blue);
     padding: 15px;
 }
