@@ -30,7 +30,7 @@
                             </div>
                         </button>
                         <?php wp_nav_menu( array('theme_location'=> 'wp_devs_main_menu', 'depth'=> 2)); ?>
-                      Menu 
+                      menu
                     </nav>
                 </div>
             </section>

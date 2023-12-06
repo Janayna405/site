@@ -1,4 +1,3 @@
-
 html{
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
@@ -76,17 +75,17 @@ testarea{
     margin:0;
 }
 
-botton,
+button,
 input{
     overflow: visible;
 }
-botton,
+button,
 select{
     text-transform: none;
 }
 
-botton, 
-[type='botton']
+button, 
+[type='button']
 [type= 'reset']
 [type='submit']{
     -webkit-appearance: button;
@@ -402,9 +401,9 @@ img{
     display: none;
 }
 
-.main-icon .bar1, 
-.main-icon .bar2, 
-.main-icon .bar3{
+.menu-icon .bar1, 
+.menu-icon .bar2, 
+.menu-icon .bar3{
        width: 28px;
        height: 3px;
        background-color: #333;
@@ -413,7 +412,7 @@ img{
 }
 @media (max-width: 767px){
     .menu-icon,
-    .chech-button{
+    .check-button{
         display: block;
     }
     .check-button{
@@ -467,6 +466,7 @@ img{
         -webkit-transform: rotate(45deg) translate(-7px, -7px);
         transform: rotate(45deg) translate(-7px, -7px);
     }
+
 
 /* Hero */
 .hero{

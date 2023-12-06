@@ -1,3 +1,7 @@
+<?php 
+/*Template Nome: General Template
+*/
+?>
 <?php get_header();?>
     
     <div id="Content" class="site-content">
@@ -40,9 +44,3 @@
                </div>
           </div>
 <?php get_footer();?>
-
-
- 
-
-
-
