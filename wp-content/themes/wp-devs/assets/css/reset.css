@@ -68,7 +68,7 @@ button,
 input,
 optgroup,
 select,
-testarea{
+textarea{
     font-family:inherit;
     font: 100%;
     line-height: 1.15%;
@@ -396,7 +396,7 @@ img{
        color: #fff;
 }
 .menu-icon, 
-.chek_button {
+.check_button {
     cursor: pointer;
     display: none;
 }
@@ -667,7 +667,7 @@ footer .container .row{
  .archive main .container{
     display: flex;
  }
- log main .container, 
+ .blog main .container, 
  .archive main .archive-items{
     padding: 0 15px 0 0;
     flex: 1;
