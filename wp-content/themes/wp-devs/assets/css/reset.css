@@ -106,7 +106,7 @@ button:-moz-focusring,
 [type=button]:-moz-focusring,
 [type=reset]:-moz-focusring,
 [type=submit]:-moz-focusring {
-	outline: 1px dotted Buttontext;
+	outline: 1px dotted Button text;
 }
 
 /**
@@ -519,7 +519,7 @@ img{
 .services-item p{
     margin-bottom: 40px
 }
-.services-ite, figure{
+.services-item, figure{
     background: var(--wpdevs-black-blue);
     padding: 15px;
 }
