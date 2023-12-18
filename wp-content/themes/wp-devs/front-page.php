@@ -7,11 +7,10 @@
                <div class="container">
                     <div class="blog_items">
 
-                         <?php 
-                              if (have_posts()):
+                         <?php if (have_posts()):
                                    while( have_posts()) : the_post();
                                    ?>
-                                        <article>
+                                        <article> <?php post_class(); ?>
                                              <h2><?php the_title(); ?></h2>
                                              <div class="Meta-info"> 
                                                   <p> Posted in <?php echo get_the_date(); ?>by <?php 
